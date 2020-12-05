@@ -9,6 +9,6 @@ echo("# Telegram - @aniruddhsinghal5          #\n");
 echo("###############################################\n");
 echo "[+] BIN : "; $bin = trim(fgets(STDIN));
 echo "[+] Check Cards too? (1-Yes,0-No) : "; $check = trim(fgets(STDIN));
-echo "[+] Number of cards to Check : "; $amount = trim(fgets(STDIN));
+echo "[+] Number of Cards to Generate/Check : "; $amount = trim(fgets(STDIN));
 $new = new CC($bin, $check, $amount);
 echo $new->Execute();
