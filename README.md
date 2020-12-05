@@ -1,23 +1,21 @@
 # CCEXTRAP (PHP)
-Script otomatis membuat beberapa Credit Card sesuai jumlah yang kita minta.<br>
-Script ini juga otomatis check Live | Die | Unknow. <br>
+This Script automatically creates several Credit Cards according to the amount we ask for. <br>
+This script also automatically checks Live CCN | Dead | Unknown Cards. <br>
 
 # Install
 - apt update && apt upgrade 
 - apt install php curl git
-- git clone https://github.com/kyo1337/CCEXTRAP
-- cd CCEXTRAP
+- git clone https://github.com/aniruddhsinghal7/CCN-Termux
+- cd CCN-Termux
 - php run.php
 
-# Petunjuk Pengguna
-- Bin : {Input Bin Seterah Kalian}
-- Check Status Valid : {Input salah satu angka, 1 or 0}<br>
-  ~ Angka 1 : Auto Check Status Live Or Die Or Unknow CC Generate<br>
-  ~ Angka 2 : Manual Check Status Live Or Die Or Unknow Via Website
-- Amount/Jumlah : {Input Bebas Jumlah Seterah Kalian}
+# RUN
+- cd CCN-Termux
+- php run.php
 
-# Note
-- https://linktr.ee/doko1554
-
-# ScreenShot
-![Capture](https://user-images.githubusercontent.com/33697576/79683548-1dae1380-8255-11ea-84c2-09baa34677d2.PNG)
+# Commands
+- Bin : {Input your BIN for generating and Checking cards}
+- Check Cards Yes/No : {1- Yes, 2- No}<br>
+  1: Generate and automatically Check Cards<br>
+  0: Only use when you just want to generate Cards.
+- Number Of Cards to Check/Generate : {Input the number of Cards you want to check/generate}
