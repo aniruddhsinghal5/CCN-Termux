@@ -132,7 +132,7 @@ class CC
         $status = json_decode($exec);
         switch ($status->error) {
             case '2':
-                return $card . $this->color("red", " [ DIE ]");
+                return $card . $this->color("red", " [ DEAD ]");
                 break;
             case '3':
                 return $card . $this->color("grey", " [ UNKNOWN ]");
@@ -142,7 +142,7 @@ class CC
                 break;
             case '1':
                 // $this->Save("Result-".$this->bin.".list", $card."\n");
-                return $card . $this->color("green", " [ LIVE ]");
+                return $card . $this->color("green", " [ CCN LIVE ]");
                 break;
         }
     }
