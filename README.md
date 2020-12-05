@@ -2,7 +2,7 @@
 This Script automatically creates several Credit Cards according to the amount we ask for. <br>
 This script also automatically checks Live CCN | Dead | Unknown Cards. <br>
 
-# Install
+# Installation
 - apt update && apt upgrade 
 - apt install php curl git
 - git clone https://github.com/aniruddhsinghal7/CCN-Termux
